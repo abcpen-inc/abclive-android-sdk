@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_video_width">123dp</dimen>
+    <dimen name="abc_video_height">70dp</dimen>
+    <dimen name="msg_width">205dp</dimen>
+</resources>

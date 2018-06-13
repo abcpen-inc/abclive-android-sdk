@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common 通用 -->
+    <color name="abc_transparent_50">#80000000</color>
+    <color name="abc_g1">#333333</color>
+    <color name="abc_g1_70">#b2333333</color>
+    <color name="abc_g1_80">#cc333333</color>
+    <color name="listview_driver">#ebebeb</color>
+
+    <!--  color style -->
+    <color name="abc_new_b2_80">#CC2b3944</color>
+    <color name="abc_new_b2_20">#332b3944</color>
+    <color name="abc_new_b2_90">#E62b3944</color>
+    <color name="abc_new_b2_70">#B32b3944</color>
+    <color name="abc_new_b2_30">#4C2b3944</color>
+    <color name="abc_new_b2_60">#992b3944</color>
+    <color name="abc_new_b2_40">#662b3944</color>
+
+    <color name="abc_new_b9_40">#66ffffff</color>
+    <color name="abc_new_b9_90">#1Affffff</color>
+    <color name="abc_new_b2_10">#1A2b3944</color>
+    <color name="abc_new_b9_60">#992b3944</color>
+    <color name="abc_new_b1">#161d22</color>
+    <color name="abc_new_b2">#2b3944</color>
+    <color name="abc_new_b3">#5d7887</color>
+    <color name="abc_new_b4">#9eaeb7</color>
+    <color name="abc_new_b5">#c5ced4</color>
+    <color name="abc_new_b6">#e6e6e6</color>
+    <color name="abc_new_b7">#f0f0f0</color>
+    <color name="abc_new_b8">#f8f8f8</color>
+    <color name="abc_new_b9">#ffffff</color>
+
+    <color name="abc_new_c1">#6da4fe</color>
+    <color name="abc_new_c1_40">#666da4fe</color>
+    <color name="abc_new_c1_30">#4D6da4fe</color>
+    <color name="abc_new_c1_60">#996da4fe</color>
+    <color name="abc_new_c2">#10cdd6</color>
+    <color name="abc_new_c3">#323787</color>
+    <color name="abc_new_c4">#f2555b</color>
+
+    <color name="abc_b1">#000000</color>
+    <color name="abc_b1_40">#66000000</color>
+    <color name="abc_b2">#333333</color>
+
+    <color name="abc_b3">#555555</color>
+    <color name="abc_b4">#777777</color>
+    <color name="abc_b5">#a3a3a3</color>
+    <color name="abc_b6">#d7d7d7</color>
+    <color name="abc_b7">#f1f1f1</color>
+    <color name="abc_b8">#f9f9f9</color>
+    <color name="abc_b9">#ffffff</color>
+    <color name="abc_b9_40">#66ffffff</color>
+
+    <color name="abc_c1">#fd8000</color>
+    <color name="abc_c2">#ffbc11</color>
+    <color name="abc_c3">#008f45</color>
+    <color name="abc_player_bar">#556169</color>
+
+    <color name="abc_e4">#e4e5e5</color>
+    <color name="abc_g2">#ffe4e5e5</color>
+    <color name="abc_g3">#666666</color>
+    <color name="abc_g3_70">#b3666666</color>
+    <color name="abc_g4">#489e46</color>
+    <color name="abc_g5">#42c197</color>
+    <color name="abc_grey">#dddede</color>
+    <color name="abc_o1">#ff7400</color>
+    <color name="abc_gap">#fbfbfb</color>
+
+    <color name="abc_transparent_c1">#e5fd8000</color>
+    <color name="abc_transparent_40">#66000000</color>
+    <color name="abc_transparent">#00000000</color>
+    <color name="abc_dati_grid">#dddddd</color>
+    <color name="abc_dati_background">#6681de</color>
+    <color name="abc_dati_teacher_blue">#6c8bff</color>
+    <color name="abc_dati_teacher_green">#469F4D</color>
+    <color name="abc_msg_sysyem_color">#f2a57e</color>
+</resources>

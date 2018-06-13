@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/abc_w1">
+
+        <LinearLayout
+            android:id="@+id/ll_video_host"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/abc_transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            />
+
+        <ViewStub
+            android:id="@+id/view_stub_loading_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/abc_loading_view" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_video_other"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+</LinearLayout>

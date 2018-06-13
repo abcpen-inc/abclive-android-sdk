@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fm_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ViewStub
+        android:id="@+id/view_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/abc_view_pass_word" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_net_error"
+        android:layout_width="match_parent"
+        android:onClick="netError"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_reconnecting_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/abc_bg_round_tran_50"
+            android:padding="15dp"
+            android:textColor="@color/abc_w1"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

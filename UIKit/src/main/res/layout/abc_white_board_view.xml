@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="0"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="-45"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="-45"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="0"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="0"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+
+    <com.abc.live.widget.wb.AllAngleExpandableButton
+        android:id="@+id/al_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:aebAnimDurationMillis="175"
+        app:aebBlurBackground="false"
+        app:aebButtonGapDp="5dp"
+        app:aebEndAngleDegree="180"
+        app:aebIsSelectionMode="false"
+        app:aebMainButtonRotateAnimDurationMillis="300"
+        app:aebMainButtonRotateDegree="-45"
+        app:aebMainButtonSizeDp="33dp"
+        app:aebRippleEffect="true"
+        app:aebStartAngleDegree="180"
+        app:aebSubButtonSizeDp="33dp"/>
+
+
+</merge>

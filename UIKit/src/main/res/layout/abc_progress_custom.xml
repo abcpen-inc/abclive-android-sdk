@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/abc_transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp">
+
+    <com.abc.live.widget.common.ABCAnimImageView
+        android:id="@+id/spinnerImageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@drawable/abc_spinner"
+        android:src="@drawable/abc_spinner" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/abc_c1" />
+
+</LinearLayout>

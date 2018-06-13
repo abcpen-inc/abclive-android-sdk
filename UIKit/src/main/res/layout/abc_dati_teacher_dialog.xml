@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/abc_round_menu_bg">
+
+    <LinearLayout
+        android:id="@+id/question_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:drawableLeft="@drawable/abc_blue_circle"
+            android:drawablePadding="4dp"
+            android:text="@string/abc_question_type"
+            android:textColor="#262626"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/question_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_type"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="26dp">
+
+        <Button
+            android:id="@+id/single_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/abc_ios_button"
+            android:padding="2dp"
+            android:text="@string/abc_single_select"
+            android:textColor="@color/ios_blue"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/multi_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/abc_ios_button"
+            android:padding="2dp"
+            android:text="@string/abc_multi_select"
+            android:textColor="@color/abc_g3"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/yesno_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/abc_ios_button"
+            android:padding="2dp"
+            android:text="@string/abc_yesno_select"
+            android:textColor="@color/abc_g3"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/set_correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/question_container"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:drawableLeft="@drawable/abc_green_circle"
+            android:drawablePadding="4dp"
+            android:text="@string/abc_set_correct"
+            android:textColor="#262626"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:id="@+id/hos_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question_container"
+        android:layout_below="@+id/set_correct"
+        android:paddingLeft="20dp"
+        android:paddingRight="26dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/A"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_a_1"/>
+
+            <Button
+                android:id="@+id/B"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_b_1"/>
+
+            <Button
+                android:id="@+id/C"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_c_1"/>
+
+            <Button
+                android:id="@+id/D"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_d_1"/>
+
+            <Button
+                android:id="@+id/E"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_e_1"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/F"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_f_1"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/dati_add"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/dati_add"/>
+
+            <Button
+                android:id="@+id/dati_remove"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/dati_minus"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hos_view"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginTop="33dp"
+            android:background="@color/abc_b6"/>
+
+        <LinearLayout
+            android:id="@+id/yes_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="@color/abc_w1"
+                android:text="@string/abc_cancel"
+                android:textColor="@color/abc_b4"
+                android:textSize="16sp"></Button>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="40dp"
+                android:background="@color/abc_b6"/>
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/abc_w1"
+                android:text="@string/abc_common_ok"
+                android:textColor="@color/abc_dati_teacher_blue"
+                android:textSize="16sp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

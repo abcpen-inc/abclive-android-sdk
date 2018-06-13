@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ABCCircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AllAngleExpandableButton">
+        <attr name="aebMainButtonSizeDp" format="dimension|reference" />
+        <attr name="aebSubButtonSizeDp" format="dimension|reference" />
+        <attr name="aebButtonGapDp" format="dimension|reference" />
+        <attr name="aebStartAngleDegree" format="integer|reference" />
+        <attr name="aebEndAngleDegree" format="integer|reference" />
+        <attr name="aebAnimDurationMillis" format="integer|reference" />
+        <attr name="aebButtonElevation" format="dimension|reference" />
+        <attr name="aebMaskBackgroundColor" format="color|reference" />
+        <attr name="aebIsSelectionMode" format="boolean" />
+        <attr name="aebMainButtonTextColor" format="color|reference" />
+        <attr name="aebSubButtonTextColor" format="color|reference" />
+        <attr name="aebMainButtonTextSizeSp" format="dimension|reference" />
+        <attr name="aebSubButtonTextSizeSp" format="dimension|reference" />
+        <attr name="aebRippleEffect" format="boolean" />
+        <attr name="aebRippleColor" format="color|reference"/>
+        <attr name="aebMainButtonRotateDegree" format="integer|reference"/>
+        <attr name="aebMainButtonRotateAnimDurationMillis" format="integer|reference"/>
+        <attr name="aebBlurBackground" format="boolean" />
+        <attr name="aebBlurRadius" format="float|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ABC_SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+        <attr name="kswAutoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="siArrowPosition">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="siBorderType">
+        <enum name="stroke" value="0" />
+        <enum name="fill" value="1" />
+    </attr>
+    <attr name="siStrokeCap">
+        <enum name="butt" value="0" />
+        <enum name="round" value="1" />
+        <enum name="square" value="2" />
+    </attr>
+    <attr name="siStrokeJoin">
+        <enum name="bevel" value="0" />
+        <enum name="miter" value="1" />
+        <enum name="round" value="2" />
+    </attr>
+    <declare-styleable name="ShaderImageView">
+        <attr name="siSquare" format="boolean" />
+        <attr name="siBorderColor" format="color" />
+        <attr name="siBorderWidth" format="dimension" />
+        <attr name="siBorderAlpha" format="float" />
+        <attr name="siForeground" format="integer|reference" />
+        <!-- Rounded Image View -->
+        <attr name="siRadius" format="dimension" />
+        <!--BubbleImageView-->
+        <attr name="siArrowPosition"/>
+        <attr name="siTriangleHeight" format="dimension"/>
+        <!--PorterImageView-->
+        <attr name="siShape" format="integer|reference" />
+        <!--ShaderImageView-->
+        <attr name="siBorderType"/>
+        <attr name="siStrokeCap"/>
+        <attr name="siStrokeJoin"/>
+        <attr name="siStrokeMiter" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollBar">
+        <attr name="sb_handlerColor" format="color|reference" />
+        <attr name="sb_indicatorColor" format="color|reference" />
+        <attr name="sb_indicatorTextColor" format="color|reference" />
+        <attr name="sb_horizontal" format="boolean|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ScaleFrameLayout">
+        <attr name="scale" format="float" />
+        <attr name="width_match" format="boolean"/>
+        <attr name="height_match" format="boolean"/>
+    </declare-styleable>
+
+    <!-- 带有数字进度条的attrs -->
+    <declare-styleable name="ABCNumberProgressBar">
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_circle_radius" format="dimension" />
+        <attr name="progress_fill_mode" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

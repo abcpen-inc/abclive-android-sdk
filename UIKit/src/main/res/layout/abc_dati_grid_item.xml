@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/abc_w1"
+              android:gravity="center"
+              android:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/abc_dati_grid"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/abc_b9"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1"
+            android:textSize="@dimen/abc_f4"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/abc_dati_grid"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp">
+
+        <TextView
+            android:id="@+id/options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abc_b9"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1"
+            android:textSize="@dimen/abc_f4"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/abc_dati_grid"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/abc_b9"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1"
+            android:textSize="@dimen/abc_f4"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/abc_can_edit_wb" android:state_enabled="true" android:state_selected="true" />
+    <item android:drawable="@drawable/abc_ic_no_edit_wb" android:state_enabled="true" android:state_selected="false" />
+    <item android:drawable="@drawable/abc_not_can_edit_wb" android:state_enabled="false" />
+</selector>

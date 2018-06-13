@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/abc_b9"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_to_camera"
+        style="@style/abc_tv_common_b3_f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="49dp"
+        android:text="@string/abc_to_camera" />
+
+    <View style="@style/abc_view_divider" />
+
+    <TextView
+        android:id="@+id/tv_to_album"
+        style="@style/abc_tv_common_b3_f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="49dp"
+        android:onClick="onClickAlbum"
+        android:text="@string/abc_to_album" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/abc_b8" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        style="@style/abc_tv_common_b3_f2"
+        android:onClick="onClickCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="49dp"
+        android:text="@string/abc_cancel_str" />
+
+</LinearLayout>

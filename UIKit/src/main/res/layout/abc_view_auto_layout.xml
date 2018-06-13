@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:orientation="horizontal"
+              android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/tv_room_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:textColor="@color/abc_new_b9"
+        android:textSize="@dimen/abc_f2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_user_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_rid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/abc_new_b4"
+            android:textSize="@dimen/abc_f5"/>
+
+        <TextView
+            android:id="@+id/tv_user_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/abc_ic_user_num_arrow"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/abc_new_b4"
+            android:textSize="@dimen/abc_f5"/>
+    </LinearLayout>
+</LinearLayout>

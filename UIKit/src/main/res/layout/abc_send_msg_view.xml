@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:id="@+id/ll_send_parent"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/abc_new_b2"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <EditText
+            android:id="@+id/et_live_msg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/abc_bg_round_w1"
+            android:hint="@string/send_msg_hint"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLength="99"
+            android:paddingLeft="10dp"
+            android:textColor="@color/abc_new_b2"
+            android:textColorHint="@color/abc_new_b4"
+            android:textSize="@dimen/abc_f4" />
+
+        <Button
+            android:id="@+id/btn_send_msg"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/send_msg"
+            android:textColor="@drawable/abc_send_msg"
+            android:textSize="@dimen/abc_f3" />
+
+
+    </LinearLayout>
+
+
+</merge>

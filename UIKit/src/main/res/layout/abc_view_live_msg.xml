@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#f2ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_send_msg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/abc_b6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_live_msg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/abc_bg_round_send_msg"
+                    android:hint="和大家说点什么..."
+                    android:imeOptions="actionSend|flagNoExtractUi|flagNoFullscreen"
+                    android:inputType="text"
+                    android:maxLength="99"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:privateImeOptions="发送"
+                    android:textColor="#c1c1c1"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_send_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="5dp"
+                    android:text="发送"
+                    android:textColor="@color/abc_c2"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_diver"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@id/ll_send_msg"
+            android:background="@color/abc_b6" />
+
+        <TextView
+            android:id="@+id/tv_start_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/view_diver"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="底部有新消息"
+            android:textColor="@color/abc_c2"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_send_msg"
+            android:layout_alignParentStart="true"
+            android:background="#f2f9f9f9"
+            android:paddingBottom="20dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

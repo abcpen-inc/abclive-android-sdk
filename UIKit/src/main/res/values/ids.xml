@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="abc_wb_color_black" type="id" />
+    <item name="abc_wb_color_blue" type="id" />
+    <item name="abc_wb_color_red" type="id" />
+
+</resources>

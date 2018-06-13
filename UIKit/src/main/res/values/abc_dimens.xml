@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="abc_f1">20sp</dimen>
+    <dimen name="abc_f2">18sp</dimen>
+    <dimen name="abc_f3">16sp</dimen>
+    <dimen name="abc_f4">14sp</dimen>
+    <dimen name="abc_f5">12sp</dimen>
+    <dimen name="abc_f6">11sp</dimen>
+    <dimen name="abc_f7">9sp</dimen>
+    <dimen name="abc_f8">8sp</dimen>
+    <dimen name="abc_wb_control_width">160dp</dimen>
+    <dimen name="abc_dp5">5dp</dimen>
+    <dimen name="abc_dp10">10dp</dimen>
+    <dimen name="abc_dp15">15dp</dimen>
+    <dimen name="abc_dp45">45dp</dimen>
+    <dimen name="abc_dp20">20dp</dimen>
+    <dimen name="abc_dp25">25dp</dimen>
+    <dimen name="abc_title">28sp</dimen>
+
+    <dimen name="abc_action_menu_radius">96dp</dimen>
+    <dimen name="abc_sub_action_button_size">36dp</dimen>
+    <dimen name="abc_sub_action_button_content_margin">6dp</dimen>
+    <dimen name="abc_action_button_size">72dp</dimen>
+    <dimen name="abc_action_button_content_margin">16dp</dimen>
+    <dimen name="abc_action_button_margin">12dp</dimen>
+    <dimen name="abc_video_item_size">69dp</dimen>
+</resources>

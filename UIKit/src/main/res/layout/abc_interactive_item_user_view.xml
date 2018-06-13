@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="5dp"
+    >
+
+
+    <com.abc.live.widget.common.ScaleFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scale="1">
+
+        <RelativeLayout
+            android:id="@+id/rl_user_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.abc.live.widget.img.mask.PorterShapeImageView
+                android:id="@+id/user_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/abc_ic_interactive_default"
+                app:siRadius="8dp"
+                app:siShape="@drawable/abc_shape_rounded_rectangle"/>
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/abc_bg_round_b2_40"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="12dp"
+                android:textColor="@color/abc_b9"
+                android:textSize="@dimen/abc_f8"/>
+
+            <ImageView
+                android:id="@+id/iv_hand_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/abc_ic_hand_up_red"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+    </com.abc.live.widget.common.ScaleFrameLayout>
+
+    <com.abc.live.widget.common.ScaleFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:scale="1.8">
+
+        <FrameLayout
+            android:id="@+id/fm_video_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:id="@+id/fm_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_user_name_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@color/abc_new_b2_40"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minHeight="12dp"
+                android:textColor="@color/abc_b9"
+                android:textSize="@dimen/abc_f8"/>
+        </FrameLayout>
+    </com.abc.live.widget.common.ScaleFrameLayout>
+
+</FrameLayout>

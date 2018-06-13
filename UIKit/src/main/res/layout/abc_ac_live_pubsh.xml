@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fm_whiteboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_controller_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.abc.live.widget.common.ABCLiveControllerView
+            android:id="@+id/play_controller_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:fitsSystemWindows="true"/>
+
+
+        <com.abc.live.widget.common.ABCSettingMenu
+            android:id="@+id/setting_menu_view"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="gone">
+
+        </com.abc.live.widget.common.ABCSettingMenu>
+
+
+        <com.abc.live.widget.wb.WhiteBoardMenuView
+            android:id="@+id/wb_menu_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:visibility="gone">
+
+        </com.abc.live.widget.wb.WhiteBoardMenuView>
+
+
+        <ImageView
+            android:id="@+id/iv_can_do_edit"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/abc_live_wb_edit_bg"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fm_video_parent"
+        android:layout_width="@dimen/abc_video_width"
+        android:layout_height="@dimen/abc_video_height"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/fm_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/tv_user_name_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/abc_new_b2_40"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minHeight="12dp"
+            android:textColor="@color/abc_b9"
+            android:textSize="@dimen/abc_f8"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_change_board_focus"
+        android:layout_width="@dimen/abc_video_width"
+        android:layout_height="@dimen/abc_video_height"
+        android:layout_margin="20dp"
+        android:visibility="gone"/>
+
+    <com.abc.live.widget.common.ABCLiveUserMsg
+        android:id="@+id/user_list_msg"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"/>
+
+
+    <com.abc.live.widget.common.ABCSendMsgView
+        android:id="@+id/user_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/teacher_progress_dialog"
+        layout="@layout/abc_dati_teacher_progress_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="46dp"
+        android:layout_marginLeft="66dp"
+        android:layout_toRightOf="@id/left_control"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/student_answer_view"
+        layout="@layout/abc_dati_student_answer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/abc_b1_40"
+        android:visibility="gone"/>
+
+    <com.abc.live.widget.common.ABCUserListView
+        android:id="@+id/user_list_view"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

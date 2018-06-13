@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/abc_b9">
+
+
+    <TextView
+        android:id="@+id/tv_true_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/titleLayout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/abc_dati_attetion"
+        android:textColor="@color/abc_g3"
+        android:textSize="@dimen/abc_f7"/>
+
+    <com.abc.live.ui.dati.ABCChartView
+        android:id="@+id/barChat"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toLeftOf="@id/tv_true_data"
+        android:visibility="visible"/>
+
+
+    <LinearLayout
+        android:id="@+id/listTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barChat"
+        android:layout_marginTop="16dp"
+        android:background="@color/abc_e4"
+        android:gravity="center"
+        android:minHeight="35dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/abc_student_name"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1_80"
+            android:textSize="@dimen/abc_f4"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/abc_dati_grid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/abc_options"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1_80"
+            android:textSize="@dimen/abc_f4"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/abc_dati_grid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/abc_duration"
+            android:textAlignment="center"
+            android:textColor="@color/abc_g1_80"
+            android:textSize="@dimen/abc_f4"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:minHeight="44dp"
+        android:text="@string/abc_live_setting"
+        android:textColor="@color/abc_b9"
+        android:textSize="@dimen/abc_f3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/abc_b9" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/abc_live_camera"
+            android:textColor="@color/abc_b9"
+            android:textSize="@dimen/abc_f4" />
+
+        <com.abc.live.widget.common.ABCSwitchButton
+            android:id="@+id/sb_camera"
+            style="@style/abc_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/abc_switch_bg"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/abc_thumb_switch"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_audio"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/abc_live_audio"
+            android:textColor="@color/abc_b9"
+            android:textSize="@dimen/abc_f4" />
+
+        <com.abc.live.widget.common.ABCSwitchButton
+            android:id="@+id/sb_audio"
+            style="@style/abc_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/abc_switch_bg"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/abc_thumb_switch"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ble"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/abc_ble_pen"
+            android:textColor="@color/abc_b9"
+            android:textSize="@dimen/abc_f4" />
+
+        <com.abc.live.widget.common.ABCSwitchButton
+            android:id="@+id/sb_ble_pen"
+            style="@style/abc_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/abc_switch_bg"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/abc_thumb_switch"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_beauty"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/abc_beauty"
+            android:textColor="@color/abc_b9"
+            android:textSize="@dimen/abc_f4" />
+
+        <com.abc.live.widget.common.ABCSwitchButton
+            android:id="@+id/sb_beauty"
+            style="@style/abc_SwitchButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            app:kswAnimationDuration="300"
+            app:kswBackDrawable="@drawable/abc_switch_bg"
+            app:kswBackMeasureRatio="1.4"
+            app:kswThumbDrawable="@drawable/abc_thumb_switch"
+            app:kswThumbMarginBottom="-8dp"
+            app:kswThumbMarginLeft="-5dp"
+            app:kswThumbMarginRight="-5dp"
+            app:kswThumbMarginTop="-2.5dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
