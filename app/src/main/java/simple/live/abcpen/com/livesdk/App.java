@@ -52,8 +52,8 @@ public class App extends MultiDexApplication {
 
     public void addTokenListener() {
         //客户端为了演示功能 这边正式集成的时候 请将token获取放在服务端
-        final String appid = "93boVMNpj7fRGKgi6jCq1amgxBdldGyb";
-        final String appSecret = "i5bdeGPrbMVc22wqpxtgk2AfCaeMfDY6";
+        final String appid = ;
+        final String appSecret = ;
         final long expireTime = 100000; //过期时间 token
         ABCLiveSDK.getInstance(this).getApiServer().setTokenCallBack(new ABCOpenApi.OpenApiTokenCallBack() {
             @Override
