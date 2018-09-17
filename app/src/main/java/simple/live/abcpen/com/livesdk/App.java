@@ -51,38 +51,12 @@ public class App extends MultiDexApplication {
 
 
     public void addTokenListener() {
-        //客户端为了演示功能 这边正式集成的时候 请将token获取放在服务端
-        final String appid = ;
-        final String appSecret = ;
-        final long expireTime = 100000; //过期时间 token
+       
+   
         ABCLiveSDK.getInstance(this).getApiServer().setTokenCallBack(new ABCOpenApi.OpenApiTokenCallBack() {
             @Override
             public String refreshToken() {
-
-                if (!TextUtils.isEmpty(uid)) {
-                    //第三方请自行更改为自己服务器请求token 这边只是为了显示功能
-
-                    String singPub = "appId=" + appid + "&expireTime=" + expireTime + "&uid=" + uid + "&nonceStr=123456";
-                    String s = (MD5Util.getMD5String(MD5Util.getMD5String(singPub) + "&appSecret=" + appSecret)).toUpperCase();
-                    GetUserTokenReq req = new GetUserTokenReq();
-                    req.appid = appid;
-                    req.uid = uid;
-                    req.expireTime = expireTime;
-                    req.sign = s;
-                    req.nonceStr = "123456";
-                    req.nickName = "asdsad";
-                    req.avatarUrl = "http://img.zcool.cn/community/013f5958c53a47a801219c772a5335.jpg@900w_1l_2o_100sh.jpg";
-                    try {
-                        Response<UserTokenResp> userTokenRespResponse = ABCLiveSDK.getInstance(App.this).getApiServer().testGetUserToken(req);
-                        if (userTokenRespResponse != null) {
-                            ABCLiveSDK.getInstance(App.this).initToken(userTokenRespResponse.body().data);
-                            return userTokenRespResponse.body().data;
-                        }
-                    } catch (IOException e) {
-
-                    }
-                }
-                return "";
+                return 获取token
             }
         });
 
